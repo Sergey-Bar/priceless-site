@@ -1,0 +1,45 @@
+{
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#eaecf2",
+  "theme_color": "#eaecf2",
+  "categories": [
+    "shopping",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "name": "PRICELESS — Узнай свою цену",
+  "short_name": "PRICELESS",
+  "description": "PRICELESS помогает проверить цену перед покупкой — сравнение между магазинами, история цен и уведомления.",
+  "lang": "ru",
+  "dir": "ltr",
+  "shortcuts": [
+    {
+      "name": "Поиск товаров",
+      "url": "/search"
+    },
+    {
+      "name": "Список отслеживания",
+      "url": "/watchlist"
+    }
+  ]
+}
